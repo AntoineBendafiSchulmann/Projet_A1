@@ -93,7 +93,7 @@
 			</div>
 			<div id="frise2" class="visible">
 				<h3>season 2019</h3>
-				<h4 id='description3'>pyke is played everywhere</h4>		
+				<h4 id='description3'>pyke is played on every role</h4>		
 			</div>
 			<div id="frise3" class="visible">
 				<h3>season 2020</h3>
