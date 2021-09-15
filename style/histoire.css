@@ -1,0 +1,226 @@
+* {
+
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: verdana
+}
+
+h1 {
+	text-align: center;
+	margin-left: 160px;
+	font-size: 50px;
+	letter-spacing: 3px;
+	color: #20B2AA;
+}
+
+header {
+	
+	height: 100px;
+	width: 1517px;
+}
+
+nav {
+	background-color: #20B2AA;
+	height: 30px;
+	width: 1688px;
+
+}
+
+section {
+	
+	height: 930px;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+
+}
+
+footer {
+	height: 100px;
+}
+
+p {
+
+	color: #20B2AA;
+	text-align: center;
+  
+	
+}
+
+.menu2 {
+	text-align: center;
+	width: 170px;
+	margin-left: 760px;
+	float: left;
+	margin-top: 5px;
+}
+
+a {
+	color: black;
+}
+
+.menu1 {  /*accueil*/
+	float: left;
+	width: 10px;
+	margin-top: 5px;
+	margin-left: 1530px;
+	text-align: left;
+	position: absolute;
+
+}
+
+
+.menu3 {         /*galerie*/
+  
+  position: absolute;
+  margin-top: 5px;
+  padding-left: 1250px;
+  position: absolute;
+}
+
+
+.menu4 {            /*  j'ai du mettre une position absolute pour le bouger librement*/
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 1395px;
+}
+
+.connection {     /*menu connection admin*/
+  color: #20B2AA;
+  margin-left: 1205px;
+  top: 6%;
+  position: absolute;
+
+}
+
+.user_connected {
+  color: #20B2AA;
+  margin-left: 1120px;
+  top: 6%;
+  position: absolute;
+  font-size: 15px;
+  
+}
+
+.video {
+	height: 20px;
+}
+
+.video {
+	margin-left: 520px;
+  margin-top: 35px;
+}
+
+
+
+
+.btn-toggle {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    border: 2px solid #20B2AA;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    cursor: pointer;
+}
+
+body.light {      
+   color: black;
+   background: black;
+}
+
+body.dark {      
+   color: black;
+   background: white;
+}
+
+
+
+/*bouton nightmode*/
+body.dark .btn-toggle {
+    background: white;
+    color: black;
+}
+
+body.dark .btn-toggle:hover {
+  box-shadow: 0 0 8px #88D5E9;
+  
+}
+
+
+body.light .btn-toggle:hover {
+  box-shadow: 0 0 8px #88D5E9;
+  
+}
+
+
+/*Responsive adapté pour iphone X*/
+
+@media screen and (max-width: 750px) {
+  section {
+    display: block;
+}
+
+h1 {
+  margin-right: 160px;
+}
+
+  body {   
+    width: 1800px;
+    height: 1500px;
+  }
+    
+    header {
+  background-color: black;
+  width: 1280px;
+}
+
+  nav {
+  background-color: #20B2AA;
+  width: 1159px;
+}
+
+  section {
+  background-color: black;
+  width: 1100px;
+  
+}
+  footer {
+  background-color: black;
+  
+  width: 200px;
+  height: 150px;
+ }
+
+
+  #menu1 {      /*menus nav*/
+    margin-left: 40px;
+ }
+
+  .menu2 {   /* menus nav*/
+    margin-right: 1px;
+    margin-left: 1px;
+ }
+
+ .video {
+ 	margin-left: 250px;
+}
+
+#biographie {
+  margin-right: 80px;
+  margin-left: 30px;
+}
+
+
+
+
+}

@@ -1,0 +1,218 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: verdana;
+  background-color: black;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 3px;
+	color: #20B2AA;
+}
+
+header {
+	
+	height: 100px;
+}
+
+nav {
+	background-color: #20B2AA;
+	height: 35px;
+}
+
+section {
+	
+	height: 600px;
+}
+
+
+
+/*lightmode/darkmode*/
+
+.btn-toggle {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    border: 2px solid #20B2AA;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    cursor: pointer;
+}
+
+body.light {      
+   color: black;
+   background: black;
+}
+
+body.dark {      
+   color: black;
+   background: white;
+}
+
+
+
+/*bouton nightmode*/
+body.dark .btn-toggle {
+    background: white;
+    color: black;
+}
+
+body.dark .btn-toggle:hover {
+  box-shadow: 0 0 8px #88D5E9;
+  
+}
+
+
+body.light .btn-toggle:hover {
+  box-shadow: 0 0 8px #88D5E9;
+  
+}
+
+.menu2 {    /*menus cliquables*/
+	text-align: center;
+	float: right;
+	width: 10px;
+	margin-left: 30px;
+	margin-right: 100px;
+	margin-top: 6px;
+	color: black;
+}
+
+
+.menu1 {    /* nom  de la page*/
+	text-align: center;
+	float: left;
+	width: 170px;
+	margin-left: 780px;
+	margin-top: 6px;
+
+}
+
+.menu3 {
+	margin-left: 20px;
+}
+
+
+.menu4 {
+	padding-left: 30px;
+}
+
+
+.title_form {
+	margin-left: 750px;
+	margin-top: 29px;
+	color: #20B2AA;
+	font-size: 19px;
+}
+
+
+
+/*formulaire de connection*/
+.form-style {
+  margin:10px auto;
+  width: 400px;
+  padding: 20px 12px 10px 20px;
+  font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style td {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+/*titre champs*/
+.form-style label{ 
+  margin:0 0 3px 0;
+  padding:0px;
+  display:block;
+  font-weight: bold;
+  color: #20B2AA;
+}
+/*astérix*/
+.form-style .required{
+  color:red;
+}
+/*boutons envoyer*/
+.form-style input[type=submit]{
+  background: #20B2AA;
+  padding: 8px 16px 8px 15px;
+  border: none;
+  color: #fff;
+  margin-left: 1px;
+}
+.form-style input[type=submit]:hover{
+  background: #4eb5f1;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+.form-style .field-input{
+  height: 100px; 
+}
+.form-style input[type=password], 
+.form-style input[type=email],
+input{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border:1px solid #BEBEBE;
+  padding: 10px;
+  margin:0px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;  
+}
+.form-style .long{
+  width: 100%;
+}/*lorque l'on clique sur les champs , ils s'éclairent*/ 
+.form-style input[type=text]:focus, 
+.form-style input[type=email]:focus,
+.form-style input:focus{
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 1px solid #88D5E9;
+}
+
+
+
+/*messages rouge d'erreur*/
+.error{
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+
+#errorogin {
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+
+
+
+#connection_succes{
+  color: white;
+  background-color: #7acc7d;
+  margin-left: 620px;
+  margin-right: 670px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+
+

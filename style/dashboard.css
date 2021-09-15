@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: verdana;
+    background-color: black;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 3px;
+	color: #20B2AA;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+header {
+	
+	height: 100px;
+}
+
+nav {
+	background-color: #20B2AA;
+	height: 30px;
+}
+
+section {    /*coeur de la page*/
+	height: 1000px;
+}
+
+footer {
+	
+	height: 100px;
+}
+
+th { /*titre tableau*/
+    color: #20B2AA;
+}
+
+.menu1 {    /* nom  de la page*/
+	text-align: center;
+	float: left;
+	width: 170px;
+	margin-left: 770px;
+	margin-top: 5px;
+
+}
+
+.menu2 {    /*menus cliquables*/
+    text-align: center;
+    float: right;
+    width: 10px;
+    margin-left: 30px;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+
+
+
+/*lightmode/darkmode*/
+
+.btn-toggle {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    border: 2px solid #20B2AA;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    cursor: pointer;
+}
+
+body.light {      
+   color: black;
+   background: black;
+}
+
+body.dark {      
+   color: black;
+   background: white;
+}
+
+
+
+/*bouton nightmode*/
+body.dark .btn-toggle {
+    background: white;
+    color: black;
+}
+
+body.dark .btn-toggle:hover {
+    box-shadow: 0 0 8px #88D5E9;
+    
+  }
+  
+  
+  body.light .btn-toggle:hover {
+    box-shadow: 0 0 8px #88D5E9;
+    
+  }
+
+
+
+
+  #blog {
+      color: #20B2AA;
+      margin-left: 370px;
+      margin-top: 45px;
+  }
+
+#title_table {
+    margin-left: 120px;
+}
+
+
+
+
+#disconnect {
+    color: red;
+    margin-top: 400px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.del-btn:hover {
+    background-color:#e04242de;
+
+}
+
+:root{
+    --delete_color: red;
+  }
+
+
+#modify_user {
+    background-color: rgb(80, 77, 77);
+    padding-left: 560px;
+    margin-right: 40px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+.status {    /*menu déroulant*/
+    color: black;
+    margin-left: 25px;
+    
+}
+
+
+.send-btn {
+    color: white;
+    background-color: #0b5edb;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-left: 25px;
+    border: hidden;
+    font-weight: 700;
+    margin-left: 25px;
+    
+    
+}
+
+
+.send-btn:hover{
+    background-color: #0f6af1;
+}
+
+.del-btn {
+    color: white;
+    background-color: var(--delete_color);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 15px;
+    border: hidden;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+
+#modify_user{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.tableau {
+    margin-top: 5px;
+}
